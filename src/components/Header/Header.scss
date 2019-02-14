@@ -1,0 +1,26 @@
+@import "../../index";
+
+:local{
+
+  .appHeader {
+    height: 1.5em;
+    font-size: 2em;
+    background-color: $base-block-background;
+    color: $base-font-background;
+  }
+
+  .appMenu {
+    padding: .75em;
+
+    a {
+      text-decoration: none;
+      padding: .25em;
+      margin-right: .50em;
+      display: inline-block;
+      color: $base-font-background;
+    }
+  }
+
+}
+
+

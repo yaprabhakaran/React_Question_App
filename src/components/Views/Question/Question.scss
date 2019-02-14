@@ -1,0 +1,35 @@
+:local {
+  $font-color-answer-red: #ff443a;
+  $font-color-answer-green: #06a70d;
+  $font-color-answer-border: #000000;
+  $font-color-answer-white: #ffffff;
+
+  .questionTitle{
+    font-size: 1.5em;
+    color: $font-color-answer-red;
+  }
+  .answerTitle {
+    font-size: 2em;
+    color: $font-color-answer-green;
+  }
+
+  .answerField {
+    min-width: 300px;
+  }
+
+  .btn {
+    color: $font-color-answer-white;
+    border: .1em $font-color-answer-border solid;
+    font-size: .9em;
+    float: right;
+    border-radius: .5em;
+
+    &.answerBtn {
+      background-color: $font-color-answer-red;
+    }
+
+    &.answerSubmitBtn {
+      background-color: $font-color-answer-green;
+    }
+  }
+}
